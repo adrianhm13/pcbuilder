@@ -8,9 +8,6 @@ var manufacturer_controller = require('../controllers/manufacturerController')
 
 // CATEGORY Routes
 
-// GET category home page.
-router.get('/', component_controller.index);
-
 // GET request for creating a category. NOTE This must come before routes that display category (uses id).
 router.get('/category/create', category_controller.category_create_get);
 

@@ -1,5 +1,10 @@
 var Component = require('../models/component');
 
+// Display list of all components.
+exports.index = function(req, res) {
+    res.send('NOT IMPLEMENTED: components list');
+};
+
 // Display list of all Authors.
 exports.component_list = function(req, res) {
     res.send('NOT IMPLEMENTED: Component list');
